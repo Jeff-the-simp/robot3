@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(243, 214, 108);
+}
+
+.Cooking, .Cleaning, .Planting, .working{
+    flex-direction: column;
+}
+.home{
+    flex-direction: row;
+}
+body, .working,.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    text-align: center;
+}
+img{
+    height: 40vh;
+    width: 20vw;
+    margin: auto;
+}
+select, input{
+    margin-left: 15px;
+}
+.cleaning, .working{
+    width: 60vw;
+}
